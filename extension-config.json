@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "id": "@shopgate-project/size-chart",
+  "components": [
+    {
+      "id": "ProductPrice",
+      "path": "frontend/portals/SizeCharts/index.jsx",
+      "target": "product.header.before",
+      "type": "portals"
+    }
+  ],
+  "configuration": {
+    "charts": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": [],
+      "params": {
+        "label": "Config for the charts",
+        "type": "json",
+        "required": true
+      }
+    }
+  },
+  "steps": []
+}
