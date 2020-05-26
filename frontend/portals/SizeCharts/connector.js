@@ -10,10 +10,4 @@ const mapStateToProps = (state, props) => ({
   sizeCharts: getSizeChartsForCurrentProduct(state, props),
 });
 
-/**
- * @return {Object}
- */
-const mapDispatchToProps = {
-};
-
-export default connect(mapStateToProps, mapDispatchToProps);
+export default connect(mapStateToProps);

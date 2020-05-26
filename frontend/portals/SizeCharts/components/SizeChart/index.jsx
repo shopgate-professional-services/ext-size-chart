@@ -15,7 +15,7 @@ const SizeChart = ({ config }) => {
   return (
     <ButtonLink href={config.link}>
       <div style={{ display: 'flex' }}>
-        <span style={{ 'margin-right': '5px' }}>{config.label}</span>
+        <span style={{ marginRight: '5px' }}>{config.label}</span>
         <InfoOutline size={24} />
       </div>
     </ButtonLink>

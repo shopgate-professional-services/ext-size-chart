@@ -13,13 +13,7 @@
     "charts": {
       "type": "admin",
       "destination": "frontend",
-      "default": [
-        {
-          "label": "TEST ABC",
-          "link": "/page/size-chart",
-          "triggerTags": ["Elastikring"]
-        }
-      ],
+      "default": [],
       "params": {
         "label": "Config for the charts",
         "type": "json",
