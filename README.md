@@ -1,4 +1,4 @@
-# Shopgate Connect - ReCharge
+# Shopgate Connect - Size Charts
 
 This extension adds a size chart link(s) to PDP.
 
